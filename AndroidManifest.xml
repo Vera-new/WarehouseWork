@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WarehouseWork"
+        tools:targetApi="31">
+        <activity
+            android:name=".FurForMoved"
+            android:exported="false" />
+        <activity
+            android:name=".FurForSale"
+            android:exported="false" />
+        <activity
+            android:name=".FurForGiven"
+            android:exported="false" />
+        <activity
+            android:name=".FurForDell"
+            android:exported="false" />
+        <activity
+            android:name=".Moved"
+            android:exported="false" />
+        <activity
+            android:name=".Sale"
+            android:exported="false" />
+        <activity
+            android:name=".Given"
+            android:exported="false" />
+        <activity
+            android:name=".ReportMoved"
+            android:exported="false" />
+        <activity
+            android:name=".ReportSales"
+            android:exported="false" />
+        <activity
+            android:name=".ReportGivenAvay"
+            android:exported="false" />
+        <activity
+            android:name=".ReportForDell"
+            android:exported="false" />
+        <activity
+            android:name=".List_Meny2"
+            android:exported="false" />
+        <activity
+            android:name=".FullInfaForAdd"
+            android:exported="false" />
+        <activity
+            android:name=".AddEO"
+            android:exported="false" />
+        <activity
+            android:name=".DellitFurniture"
+            android:exported="false" />
+        <activity
+            android:name=".InputFurniture"
+            android:exported="false" />
+        <activity
+            android:name=".List_Meny1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Full_information" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>

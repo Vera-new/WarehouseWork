@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">WarehouseWork</string>
+    <string name="button1">Склад</string>
+    <string name="button2">Отчёт</string>
+    <string name="input_furniture">Внести мебель</string>
+    <string name="del_furniture">Выдать мебель</string>
+    <string name="input_EO">Присвоить ЕО</string>
+    <string name="input_invent">Присвоить ЕО и инвентарный</string>
+    <string name="namef">Наименование</string>
+    <string name="size">Размеры:</string>
+    <string name="from">Откуда поступило:</string>
+    <string name="numberVSP">номер ВСП</string>
+    <string name="HnumberVSP">введите номер ВСП</string>
+    <string name="adressFrom">адрес ВСП</string>
+    <string name="HadressFrom">введите адрес ВСП</string>
+    <string name="data">Дата поступления</string>
+    <string name="commit">Комментарий:</string>
+    <string name="inputPhoto">Загрузить фото</string>
+    <string name="report_forDel">Для утилизации</string>
+    <string name="report_GivenAvay">Отдано на благотворительность</string>
+    <string name="report_Sales">Продано</string>
+    <string name="report_Moved">Перемещено</string>
+    <string name="input_TimeKeep">Срок хранения</string>
+    <string name="given">Отдать</string>
+    <string name="blago">Благотворительность</string>
+    <string name="dell">Утилизировать</string>
+    <string name="moven">Переместить</string>
+    <string name="back">Назад</string>
+    <string name="sale">Продать</string>
+    <string name="saleS">Продажа</string>
+    <string name="moved">Перемещение</string>
+    <string name="eo">ЕО:</string>
+    <string name="date">Дата:</string>
+    <string name="Hdate">введите дату перемещения</string>
+    <string name="HdateS">введите дату продажи:</string>
+    <string name="HdateG">введите дату передачи:</string>
+    <string name="Heo">введите едницу оборудования из ТОРО</string>
+    <string name="invent">Инвентарный:</string>
+    <string name="Hinvent">введите номер (или БН)</string>
+    <string name="organization">Название организации:</string>
+    <string name="Нorganization">Введите название организации</string>
+    <string name="goMainActiv">На главный экран</string>
+    <string name="exit">Выход</string>
+    <string name="HinputF">введите наименование мебели</string>
+    <string name="HinputL">введите длину в мм</string>
+    <string name="HinputW">введите ширину в мм</string>
+    <string name="HinputHG">введите высоту/глубину в мм</string>
+    <string name="HinputTIn">введите дату поступления</string>
+    <string name="HinputC">Введите комментарий</string>
+    <string name="show">показать</string>
+    <string name="gosklad">на склад</string>
+    <string name="goreport">в отчёты</string>
+    <string name="length">Длина:</string>
+    <string name="width">Ширина:</string>
+    <string name="hight">Высота:</string>
+    <string name="wherefrom">Откуда поступило:</string>
+    <string name="wherego">Когда поступило:</string>
+
+    <string-array name ="cklad">
+        <item>Новосибирск</item>
+        <item>Барнаул</item>
+        <item>Красноярск</item>
+        <item>Омск</item>
+        <item>Кемерово</item>
+        <item>Томск</item>
+        <item>Абакан</item>
+    </string-array>
+
+</resources>
